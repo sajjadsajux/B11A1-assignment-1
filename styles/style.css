@@ -117,6 +117,94 @@ border: none;
   background-color: transparent; 
   width: 474.03px;
   height: 400px;
-  margin: 0px 20px;
+  margin: 0px 25px;
 
+  }
+  /* Main Section */
+  /* Pillars of "Bangladesh 2.0" */
+  .pillars-contents{
+    width: 1280px;
+  height: 324px;
+    text-align: left;
+    padding: 80px 160px;
+
+  }
+  .pillarbox{
+    width: 1280px;
+    height: 244px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+padding: 0px;
+margin: 24px 0px;
+    }
+  .box{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+width: 302px;
+height: 244px;
+padding: 24px;
+margin: 0 auto;
+
+  }
+  .pillars-contents h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+width: 1280px;
+height: 48px;
+gap: 32;
+padding: 0px;
+margin: 32px 0px;
+
+
+
+  }
+  .pillarbox img{
+    width: 49.66px;
+height: 53.09px;
+left: 13.34px;
+top: 1px;
+background-color: transparent;
+
+
+  }
+  .pillarbox h6{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+width: 254px;
+height: 24px;
+gap: 12;
+padding: 0px;
+margin: 12px 0px;
+background-color: transparent;
+
+  }
+  .pillarbox p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+width: 254px;
+height: 72px;
+gap: 12;
+padding: 0px;
+margin: 12px 0px;
+background-color: transparent;
   }
