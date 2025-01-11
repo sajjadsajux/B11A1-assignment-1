@@ -781,6 +781,7 @@ padding: 17px 34px 17px 34px;
 margin: 32px auto;
 }
 .donatebtnt{
+  
   color: rgb(255, 255, 255);
 font-family: Fira Sans;
 font-size: 18px;
@@ -794,6 +795,10 @@ gap: 48;
 padding: 0;
 border: none;
 background: transparent
+
+}
+.donatebtn:hover{
+  background-color: #3e8e41;
 }
 /* newsletter section */
 
