@@ -338,73 +338,320 @@
   background: rgb(247, 235, 207);
 }
 
-.quotes-content{
+.quotes-content {
   width: 1280px;
   height: 256px;
-  
-    align-items: center;
-    margin-top:380px ; 
-    margin-bottom:80px ; 
 
-    gap: 24;
+  align-items: center;
+  margin-top: 380px;
+  margin-bottom: 80px;
+
+  gap: 24;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
-  
+
   background: rgb(255, 255, 255);
   background-image: url(../assets/quote-bg.png);
-background-repeat: no-repeat;
-background-position: left top;
-padding: 48px 24px 48px 24px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding: 48px 24px 48px 24px;
+}
+
+blockquote {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 1232px;
+  height: 96px;
+  gap: 12;
+  padding: 0px;
+  margin: 12px 0px;
+  background: transparent;
+}
+.quotes-content h6 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 1232px;
+  height: 24px;
+  gap: 4;
+  padding: 0px;
+  margin: 4px 0px;
+  background: transparent;
+}
+.quotes-content p {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 1232px;
+  height: 24px;
+  gap: 4;
+  padding: 0px;
+  margin: 4px 0px;
+  background: transparent;
+}
+/* Your Opinion Matters */
+.Opinion h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 1280px;
+  height: 48px;
+  gap: 24;
+  padding: 0px;
+  margin: 24px auto;
+}
+
+.Opinion-table {
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  width: 1280px;
+  height: 409px;
+}
+
+table {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: transparent;
+  width: 1280px;
+  height: 409px;
+  gap: 24;
+  padding: 32px;
+  margin: 24px 0px;
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  text-align: center;
+  border-collapse: collapse;
+}
+left {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  gap: 24;
+  padding: 24px;
+  margin: 0px -1px;
+  background-color: white;
+}
+.right {
+  box-sizing: border-box;
+  border: 1px solid #0e0e0e26;
+  background-color: white;
+  width: 200px;
+  height: 92px;
+  gap: 24;
+  padding: 24px;
+  margin: 0px -1px;
+}
+.believe {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0px 12px;
+  align-items: center;
+  gap: 12;
+  padding: 24px;
+  width: 622px;
+  height: 19px;
+  background-color: white;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.table-head {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+  width: 1216px;
+  height: 72px;
+}
+.headtr {
+  border: none;
+}
+.Questions {
+  border-right: none;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 24px;
+}
+.YourOpinion {
+  border-left: none;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 24px;
+}
+
+.Agree {
+  box-sizing: border-box;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+
+  background: rgba(9, 161, 92, 0.15);
+  width: 152px;
+  height: 44px;
+  gap: 12;
+  padding: 10px 14px 10px 14px;
+}
+.Agree {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* Recent Section */
+.recentnews h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 1280px;
+  height: 48px;
+  gap: 24;
+  padding: 0px;
+  margin: 80px auto 24px;
+}
+.recentnewsp {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 1280px;
+  height: 48px;
+  gap: 12;
+  padding: 0px;
+  margin: 24px auto 32px;
+}
+.recentnews-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+
+  background: rgb(255, 255, 255);
+  width: 1280px;
+  height: 402px;
+}
+.recentnews-content-dp {
+  border-radius: 24px;
+
+  background: url(image);
+  width: 408px;
+height: 306px;
+margin: 0px 32px;
+}
+.recentnews-content-tittle{
+  width: 744px;
+  height: 290px;
+  gap: 32;
+  padding: 0px;
+  margin: 56px 48px 56px 32px;
+  background-color: white;    
+}
+
+.recentnews-content-tittle h2{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+width: 744px;
+height: 38px;
+gap: 12;
+padding: 0px;
+margin-top: 56px auto;
+background: transparent;
+}
+.recentnews-content-tittle img{
+  width: 134px;
+height: 40px;
+margin: 12px 0px;
+background: transparent;
 
 }
 
-blockquote{
-  color: rgba(14, 14, 14, 0.8);
+.datetime{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+background: transparent;
+gap: 12;
+padding: 0px;
+
+}
+.recentnews-content-tittle p{
+  color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
-width: 1232px;
-height: 96px;
 gap: 12;
 padding: 0px;
 margin: 12px 0px;
 background: transparent;
 
 }
-.quotes-content h6{
-  color: rgba(14, 14, 14, 0.8);
+.recentnews-content-tittle button{
+  border-radius: 8px;
+
+background: rgb(0, 106, 80);
+
+gap: 48;
+padding: 13px 26px 13px 26px;
+margin: 0px 48px;
+color: rgb(255, 255, 255);
 font-family: Fira Sans;
-font-size: 20px;
+font-size: 18px;
 font-weight: 600;
-line-height: 24px;
+line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
-width: 1232px;
-height: 24px;
-gap: 4;
-padding: 0px;
-margin: 4px 0px;
-background: transparent;
+border: none;
+margin: auto;
+margin-top: 8px;}
 
-}
-.quotes-content p{
-  color: rgba(14, 14, 14, 0.6);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-width: 1232px;
-height: 24px;
-gap: 4;
-padding: 0px;
-margin: 4px 0px;
-background: transparent;
-
-}
-/* Your Opinion Matters */
