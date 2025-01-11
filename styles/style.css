@@ -137,6 +137,8 @@
   padding: 24px;
   margin: 0 12px;
 }
+
+ 
 .pillars-contents h1 {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
@@ -243,7 +245,9 @@
   justify-content: center;
   align-items: center;
 }
-
+.vboxhoover:hover{
+  background-color: #4edef1;
+}
 .vision-box img {
   background: rgb(129, 180, 252);
   background: transparent;
@@ -788,7 +792,8 @@ width: 90px;
 height: 22px;
 gap: 48;
 padding: 0;
-
+border: none;
+background: transparent
 }
 /* newsletter section */
 
@@ -935,5 +940,23 @@ background: transparent;
 width: 24px;
 height: 24px;
 
+
+}
+/* button hoover */
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.donatehoover:hover{
+  background-color: rgb(63, 191, 230);
+}
+
+.hoover:hover{
+  background-color: rgba(80, 221, 76, 0.644);
 
 }
