@@ -11,12 +11,11 @@
 /* Header Section */
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 24px 160px 24px 160px;
+  padding: 24px 120px 24px 100px;
   width: 1600px;
   height: 100px;
-  gap: 520px;
+  gap: 580px;
 }
 .logoname {
   color: rgb(14, 14, 14);
@@ -568,6 +567,7 @@ left {
   background: rgb(255, 255, 255);
   width: 1280px;
   height: 402px;
+  margin-bottom: 24px;
 }
 .recentnews-content-dp {
   border-radius: 24px;
@@ -757,8 +757,8 @@ gap: 12;
 border: none;  
 background: transparent;
 }
-.inputt::placeholder{
-  text-align: center;
+::placeholder{
+text-align: center;
 border: none;  
 outline: none;
 }
@@ -792,63 +792,95 @@ padding: 0;
 }
 /* newsletter section */
 
-.newsletter{
+.formc{
   border-radius: 24px;
-
+  width: 1280px;
+  height: 395px;
+  justify-content: center;
+  align-items: center;
+margin-top: 80px;    
 background: rgb(198, 228, 214);
-width: 1280px;
-height: 395px;
-justify-content: center;
-align-items: center;
-margin: 80px auto;
-
+padding: padding: 80px 100px 80px 100px;
+;
+text-align:center;
 }
-.newsletterc{
-  border-radius: 24px;
 
-width: 1280px;
-height: 395px;
-justify-content: center;
+.formc h1{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+width: 622px;
+height: 48px;
 align-items: center;
-gap: 64;
+gap: 16;
 padding-top:  80px;
 background: transparent;
 }
-.newsletter h1{
-  color: rgb(14, 14, 14);
-  font-family: Fira Sans;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0%;
-  text-align: center;
+
+.formc p{
   width: 622px;
 height: 48px;
 align-items: center;
 gap: 16;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
 background: transparent;
-
+margin: 25px auto;
 }
-.newsletter p{
-  color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0%;
-  text-align: center;
-  width: 622px;
-height: 48px;
-align-items: center;
-gap: 16;
-padding: 0px;
-margin: 64px;
+.formbox{
+  width: 750px;
+height: 55px;
 
+justify-content: center;
+display: flex;
+background: transparent;
+border-radius: 8px 0px 0px 8px;
+
+background: rgb(255, 255, 255);
 }
 
+.ebox{
+  border-radius: 8px 0px 0px 8px;
 
+background: rgb(255, 255, 255);
+width: 750px;
+height: 55px;
 
+}
+.ebox::placeholder{
+text-align: center;
+width: 300px;
+height: auto;
 
+}
+.bbox{
+  width: 150px;
+height: 55px;
+  border-radius: 0px 8px 8px 0px;
+
+background: rgb(0, 106, 80);
+
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+gap: 48;
+padding: 17px 34px 17px 34px;
+
+}
 
 
 /* footer */
@@ -892,7 +924,7 @@ height: 24px;
 gap: 23px;
 margin-top: 32px;
 display: flex;
-
+justify-content: center;
 background: transparent;
 margin-bottom: 50px;
 }
@@ -900,5 +932,8 @@ margin-bottom: 50px;
 padding: 10px;
 gap: 50px;
 background: transparent;
+width: 24px;
+height: 24px;
+
 
 }
